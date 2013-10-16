@@ -31,7 +31,7 @@ public class Workshop {
 		cluster.submitTopology("project", conf, builder.createTopology());
 		
 		try {
-			Thread.sleep(1000 * 10); // Run for half a minute.
+			Thread.sleep(1000 * 0.5); // Run for half a minute.
 		} catch (InterruptedException e) {
 			Logger.getLogger(Project.class).error("Interrupted while"
 					+ " waiting for local cluster to complete processing.");
