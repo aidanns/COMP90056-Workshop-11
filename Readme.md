@@ -5,3 +5,7 @@ My implementation of a stream based rating estimator using Storm for use with Fo
 ## Author
 
 Aidan Nagorcka-Smith (aidanns@gmail.com)
+
+## Running
+
+	$ mvn compile exec:java -Dexec.classpathScope=compile -Dexec.mainClass=com.aidanns.streams.workshop.Workshop

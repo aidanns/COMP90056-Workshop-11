@@ -1,3 +1,8 @@
 /target
 /input/*
 classification-workshop.pdf
+
+.classpath
+.settings
+.project
+ratings-provider.pdf
